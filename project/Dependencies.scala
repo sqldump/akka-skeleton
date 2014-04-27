@@ -1,12 +1,12 @@
 import sbt._
 
 object Version {
-  val scala           = "2.10.3"
-  val akka            = "2.2.3"
+  val scala           = "2.10.4"
+  val akka            = "2.3.2"
 }
 
 object Library {
-  val jsr305         = "com.google.code.findbugs"  %  "jsr305"                % "2.0.1"
+  val jsr305         = "com.google.code.findbugs"  %  "jsr305"                % "2.0.3"
   val log4j          = "log4j"                     %  "log4j"                 % "1.2.17"
 
   val akkaActor      = "com.typesafe.akka"         %% "akka-actor"            % Version.akka
@@ -18,7 +18,7 @@ object Library {
   val jodaConvert    = "org.joda"                  %  "joda-convert"          % "1.6"
 
   val junit          = "junit"                     %  "junit"                 % "4.11"
-  val scalatest      = "org.scalatest"             %% "scalatest"             % "1.9.1"
+  val scalatest      = "org.scalatest"             %% "scalatest"             % "2.1.3"
   val akkaTestKit    = "com.typesafe.akka"         %% "akka-testkit"          % Version.akka
 }
 
